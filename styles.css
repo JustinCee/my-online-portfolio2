@@ -5,3 +5,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  background-color: #2c2d2f;
+}
+
+/* Navbar begin */
+.sidenav {
+  height: -webkit-fill-available;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #17181b;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
